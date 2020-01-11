@@ -1,7 +1,7 @@
 #include <iostream>
 #include "log.h"
 
-void InitLog()
+void init_log()
 {
     log("Initialized Log");
 }
