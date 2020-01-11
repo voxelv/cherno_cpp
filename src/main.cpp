@@ -1,8 +1,7 @@
 #include <iostream>
 
-void log(const char* message);
-
-int main() {
-    log("Hello, World!");
+int main()
+{
+    std::cout << sizeof(double) << std::endl;
     std::cin.get();
 }
